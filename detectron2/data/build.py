@@ -553,9 +553,9 @@ def build_detection_train_loader(
         aspect_ratio_grouping=aspect_ratio_grouping,
         num_workers=num_workers,
         collate_fn=collate_fn,
-        prefetch_factor=prefetch_factor,
-        persistent_workers=persistent_workers,
-        pin_memory=pin_memory,
+        #prefetch_factor=prefetch_factor,
+        #persistent_workers=persistent_workers,
+        #pin_memory=pin_memory,
     )
 
 
